@@ -44,19 +44,20 @@ My goal in creating this application is to provide users of all walks of life wi
 <!-- USAGE EXAMPLES -->
 ## Usage
 >Loaded page:
-![image](https://user-images.githubusercontent.com/112664790/236599286-f524365f-4b9f-4115-a1a5-bed2795e09b1.png)
+![image](https://github.com/rajkdh/note.taker/assets/112664790/43c5c6f3-9785-4d72-bc7e-8a8af76f46d2)
 
 <br>
 <br>
 
->After selecting the 'start' button, the quiz starts: 
-![image](https://user-images.githubusercontent.com/112664790/236599335-64bdf70c-84b4-4c66-bd79-945cbcf743b4.png)
+>After selecting the "Get Started" button, user is presented: 
+![image](https://github.com/rajkdh/note.taker/assets/112664790/93563227-0f85-44ee-a2ca-503e75b7112c)
+
 
 <br>
 <br>
 
->If the user runs out of time or completes the quiz, they are directed to submit their initials:
-![image](https://user-images.githubusercontent.com/112664790/236599392-9e4e8b73-7369-4a84-8f3a-c217d6066b2f.png)
+>
+![image](https://github.com/rajkdh/note.taker/assets/112664790/72b7766a-a50f-4a65-81c2-695326caa567)
 
 <br>
 <br>
