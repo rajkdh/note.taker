@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const store = require("../db/store");
 
-//call for stored data
+//get notes
 router.get("/notes", (req, res) => {
     store
     .getNotes().then(notes => {
@@ -9,7 +9,7 @@ router.get("/notes", (req, res) => {
     }).catch(err => {
         res.status(500).json(err)
     })
-})
+});
 
 //post notes
 router.post("/notes", (req, res) => {
@@ -19,4 +19,12 @@ router.post("/notes", (req, res) => {
     }).catch(err => {
         res.status(500).json(err)
     })
-})
+});
+//delete notes
+router.delete("/notes/:id", (req, res) => {
+    store
+    .removeNote(req.params.id).then(() => res.json({ ok: true}))
+    .catch(err => res.status(500).json(err))
+});
+
+module.exports = router;
